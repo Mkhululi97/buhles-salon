@@ -8,7 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --exit"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/codex-academy/bulhes-salon#readme",
   "dependencies": {
+    "dotenv": "^16.3.1",
     "mocha": "^10.1.0",
     "pg-promise": "^10.15.0"
   }
