@@ -65,7 +65,7 @@ describe("The Booking Salon", function () {
 
   it("should be able to allow a client to make a booking", async function () {
     //await booking.makeBooking(date(mm/dd/yyyy), time, clientid, treatmentid, stylistid);
-    await booking.makeBooking("02/18/2023", "09:00:45", 1, 2, 1);
+    await booking.makeBooking("02/17/2023", "09:00:45", 1, 2, 1);
     await booking.makeBooking("02/18/2023", "10:00:45", 3, 2, 3);
     let bookings = await booking.findClientBookings(1);
     assert.deepEqual(
